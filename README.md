@@ -1,4 +1,5 @@
-<h2>This website accountant<h2>
-<p>This website counts every day from that year onwards that I studied this technology!<p>
-<p><span style="font-weight: bold;">Tecnology:</span> Nodejs</p>
+## This website accountant
+This website counts every day from that year onwards that I studied this technology!
+__Tecnology:__ Nodejs
+
 <img src="./img/website.png">
