@@ -11,8 +11,8 @@ app.set('view engine', 'html');
 app.set('views', path.join(__dirname, './views'));
 
 app.get('/', async (req,res) => {
-    await prisma.days.create();
-    const days = await prisma.days.findMany();
+    await prisma.nodejs.create();
+    const days = await prisma.nodejs.findMany();
     res.render('index', {days: days});
 });
 
